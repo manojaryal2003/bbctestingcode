@@ -1,0 +1,45 @@
+# =============================================================================
+# BBC School Management System — Regression Test Suite .gitignore
+# =============================================================================
+
+# ── Credentials — NEVER commit ────────────────────────────────────────────────
+.env
+
+# ── Python cache files ────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# ── Virtual environment ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.Python
+
+# ── pytest cache ──────────────────────────────────────────────────────────────
+.pytest_cache/
+.cache/
+
+# ── Generated test artifacts (screenshots and reports are local only) ─────────
+screenshots/
+reports/
+
+# ── IDE and editor files ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+
+# ── Distribution / packaging ──────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
